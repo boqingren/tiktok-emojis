@@ -1,0 +1,28 @@
+{
+  "name": "@examples/react",
+  "private": false,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "npm run mk:code && npx vite",
+    "build": "npm run mk:code && npx tsc -b && npx vite build",
+    "preview": "npm run build && npx vite preview",
+    "rm:code": "npx shx rm -rf ./src/codes.ts",
+    "cp:code": "npx shx cp ../../scripts/src/constants/tiktok-emoji-codes.ts ./src/codes.ts",
+    "mk:code": "npm run rm:code && npm run cp:code"
+  },
+  "dependencies": {
+    "@tiktok-emojis/react": "workspace:*",
+    "react": "16.8.0",
+    "react-dom": "16.8.0"
+  },
+  "devDependencies": {
+    "@types/react": "16.8.0",
+    "@types/react-dom": "16.8.0",
+    "@vitejs/plugin-react": "4.7.0",
+    "globals": "16.3.0",
+    "shx": "0.4.0",
+    "typescript": "5.8.3",
+    "vite": "7.0.4"
+  }
+}
