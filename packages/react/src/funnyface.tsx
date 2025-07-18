@@ -1,0 +1,27 @@
+import React from "react";
+export function Funnyface(props: Partial<Record<"width" | "height" | "size", string | number>>): JSX.Element {
+  return (
+<svg xmlns="http://www.w3.org/2000/svg" xmlSpace="preserve" style={{"shapeRendering":"geometricPrecision","textRendering":"geometricPrecision","imageRendering":"optimizeQuality" as any,"fillRule":"evenodd","clipRule":"evenodd"}} width={props.width || props.size || 24} height={props.height || props.size || 24} viewBox="0 0 33.51 33.51" version="1.1">
+<defs>
+  <style type="text/css">
+   {".funnyface_fil1{fill:black}.funnyface_fil2{fill:#FF3939}.funnyface_fil0{fill:#FFCFC0}"}
+  </style>
+</defs>
+<g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer" />
+  <g id="_2689536525008">
+    <circle className="funnyface_fil0" cx="16.76" cy="16.76" r="16.76" />
+    <circle className="funnyface_fil1" cx="11.18" cy="8.82" r="2.4" />
+    <path className="funnyface_fil1"
+      d="M21.72 8.83c1,0.28 2.08,0.66 2.73,1.1 0.29,0.2 0.37,0.59 0.17,0.89 -0.2,0.29 -0.59,0.37 -0.89,0.17 -0.84,-0.57 -2.75,-1.06 -3.77,-1.28 -0.24,-0.05 -0.41,-0.21 -0.48,-0.45 -0.07,-0.23 -0.01,-0.47 0.17,-0.63 0.85,-0.83 2.95,-1.58 4.11,-1.91 0.34,-0.1 0.69,0.1 0.79,0.44 0.1,0.34 -0.1,0.69 -0.44,0.79 -0.57,0.16 -1.56,0.49 -2.39,0.88z" />
+    <path className="funnyface_fil2"
+      d="M20.09 13.68c2.85,2.84 3.24,9.38 1.65,11.85 -1.02,1.58 -3.12,1.95 -4.79,1.95 -1.67,0 -3.77,-0.37 -4.79,-1.95 -1.6,-2.47 -1.2,-9.01 1.65,-11.85l6.28 0z" />
+    <path className="funnyface_fil1"
+      d="M13.22 12.46c0.75,0.13 1.57,0.2 2.33,0.25 1.7,0.1 3.46,0.05 5.14,-0.25 0.42,-0.07 0.83,0.21 0.9,0.63 0.07,0.42 -0.21,0.83 -0.63,0.9 -1.8,0.32 -3.67,0.38 -5.5,0.27 -0.82,-0.05 -1.7,-0.13 -2.51,-0.27 -0.42,-0.08 -0.71,-0.48 -0.63,-0.9 0.08,-0.42 0.48,-0.71 0.9,-0.63z" />
+  </g>
+</g>
+</svg>
+  );
+}
+
+export default Funnyface;

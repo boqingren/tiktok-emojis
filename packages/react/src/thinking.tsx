@@ -1,0 +1,30 @@
+import React from "react";
+export function Thinking(props: Partial<Record<"width" | "height" | "size", string | number>>): JSX.Element {
+  return (
+<svg xmlns="http://www.w3.org/2000/svg" xmlSpace="preserve" style={{"shapeRendering":"geometricPrecision","textRendering":"geometricPrecision","imageRendering":"optimizeQuality" as any,"fillRule":"evenodd","clipRule":"evenodd"}} width={props.width || props.size || 24} height={props.height || props.size || 24} viewBox="0 0 36.9 39.87" version="1.1">
+<defs>
+  <style type="text/css">
+   {".thinking_fil1{fill:black}.thinking_fil2{fill:#FCE37A}.thinking_fil0{fill:#FFD93D}"}
+  </style>
+</defs>
+<g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer" />
+  <g id="_2689606315376">
+    <circle className="thinking_fil0" cx="18.45" cy="18.45" r="18.45" />
+    <circle className="thinking_fil1" cx="21.49" cy="12.75" r="2.54" />
+    <circle className="thinking_fil1" cx="10.76" cy="11.22" r="2.38" />
+    <path className="thinking_fil1"
+      d="M7.7 3.35c0.39,-0.41 0.98,-0.82 1.46,-1.09 1.2,-0.68 2.55,-1.02 3.92,-1 0.45,0.01 0.81,0.38 0.8,0.83 -0.01,0.45 -0.38,0.81 -0.83,0.8 -1.07,-0.02 -2.12,0.24 -3.05,0.76 -0.36,0.2 -0.83,0.51 -1.12,0.82 -0.31,0.33 -0.82,0.34 -1.15,0.03 -0.33,-0.31 -0.34,-0.82 -0.03,-1.15z" />
+    <path className="thinking_fil1"
+      d="M22.76 7.16c0.05,0.23 0.35,0.6 0.49,0.76 0.77,0.83 1.99,1.49 3,1.95 0.41,0.19 0.59,0.67 0.4,1.08 -0.19,0.41 -0.67,0.59 -1.08,0.4 -1.3,-0.59 -2.82,-1.45 -3.73,-2.58 -0.32,-0.39 -0.68,-0.98 -0.71,-1.51 -0.02,-0.45 0.32,-0.83 0.77,-0.85 0.44,-0.02 0.81,0.31 0.85,0.74z" />
+    <path className="thinking_fil1"
+      d="M11.43 18.52c1.08,-0.2 2.48,-0.14 3.55,0.04 2.54,0.42 4.72,1.66 6.26,3.74 0.27,0.36 0.19,0.87 -0.17,1.14 -0.36,0.27 -0.87,0.19 -1.14,-0.17 -1.29,-1.74 -3.1,-2.75 -5.21,-3.1 -0.88,-0.15 -2.1,-0.2 -2.99,-0.04 -0.44,0.08 -0.87,-0.21 -0.95,-0.65 -0.08,-0.44 0.21,-0.87 0.65,-0.95z" />
+    <path className="thinking_fil2"
+      d="M4.77 28.68c1.32,-2.42 1.6,-3.87 1.35,-5.16 -0.25,-1.3 -1.17,-1.91 -0.33,-2.95 0.84,-1.04 3.23,-1.14 3.92,1.5 0.69,2.65 0.15,4.78 1.5,5.26 0.77,0.27 2.63,-0.35 4.1,-0.93 1.91,-0.76 3.31,-1.56 5.44,-1.92 1.29,-0.21 2.55,-0.15 3,0.74 1.04,2.06 -0.94,3.2 -4.83,4.58 0.01,-0.24 3.86,0.93 1.17,3.69 0,0 2.59,2.82 -0.97,4.81 -3.56,1.98 -9,1.75 -10.96,1.17 -3.55,-1.06 -5.13,-7.59 -3.38,-10.78z" />
+  </g>
+</g>
+</svg>
+  );
+}
+
+export default Thinking;
