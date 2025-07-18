@@ -1,0 +1,48 @@
+import { defineComponent } from "vue";
+export const Wronged = defineComponent({
+  name: "Wronged",
+  props: {
+    width: {
+      type: [String, Number],
+      require: false
+    },
+    height: {
+      type: [String, Number],
+      require: false
+    },
+    size: {
+      type: [String, Number],
+      require: false
+    }
+  },
+  setup(props) {
+    return () => {
+      return (
+        <svg xmlns="http://www.w3.org/2000/svg" xmlSpace="preserve" style={{"shapeRendering":"geometricPrecision","textRendering":"geometricPrecision","imageRendering":"optimizeQuality" as any,"fillRule":"evenodd","clipRule":"evenodd"}} width={props.width || props.size || 24} height={props.height || props.size || 24} viewBox="0 0 43.31 40.77" version="1.1">
+<defs>
+  <style type="text/css">
+   {".wronged_fil1{fill:black}.wronged_fil2{fill:#FCE37A}.wronged_fil0{fill:#FFDA3E}"}
+  </style>
+</defs>
+<g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer" />
+  <g id="_2689606296240">
+    <circle class="wronged_fil0" cx="19.95" cy="19.95" r="19.95" />
+    <circle class="wronged_fil1" cx="19.86" cy="24.16" r="2.82" />
+    <circle class="wronged_fil1" cx="33.4" cy="24.16" r="2.55" />
+    <path class="wronged_fil1"
+      d="M14.68 20.82c0.65,-0.18 1.42,-0.56 2,-0.89 1.3,-0.76 2.44,-1.81 3.12,-3.17 0.22,-0.43 0.75,-0.61 1.18,-0.39 0.43,0.22 0.61,0.75 0.39,1.18 -0.83,1.67 -2.21,2.97 -3.81,3.9 -0.71,0.42 -1.61,0.85 -2.42,1.07 -0.47,0.13 -0.95,-0.14 -1.08,-0.61 -0.13,-0.47 0.14,-0.95 0.61,-1.08z" />
+    <path class="wronged_fil1"
+      d="M36.96 22.2c-0.68,-0.12 -1.5,-0.47 -2.09,-0.8 -1.5,-0.84 -2.66,-2.1 -3.43,-3.63 -0.22,-0.43 -0.04,-0.96 0.39,-1.18 0.43,-0.22 0.96,-0.04 1.18,0.39 0.61,1.22 1.52,2.22 2.72,2.89 0.42,0.23 1.05,0.52 1.53,0.6 0.48,0.08 0.8,0.54 0.72,1.02 -0.08,0.48 -0.54,0.8 -1.02,0.72z" />
+    <path class="wronged_fil2"
+      d="M17.35 40.77c3.13,0 5.67,-2.54 5.67,-5.67 0,-0.29 -0.02,-0.57 -0.06,-0.85l2.58 0c1.22,0 2.22,-1 2.22,-2.22l0 0c0,-1.22 -1,-2.22 -2.22,-2.22l-6.13 0 -3.24 0c-2.66,0 -4.49,2.81 -4.49,5.28 0,3.13 2.54,5.67 5.67,5.67z" />
+    <path class="wronged_fil2"
+      d="M38.21 39.66c-2.81,0 -5.09,-2.28 -5.09,-5.09 0,-0.26 0.02,-0.52 0.06,-0.77l-2.32 0c-1.09,0 -1.99,-0.9 -1.99,-1.99l0 0c0,-1.09 0.9,-1.99 1.99,-1.99l5.51 0 2.91 0c2.39,0 4.04,2.52 4.04,4.75 0,2.81 -2.28,5.09 -5.09,5.09z" />
+  </g>
+</g>
+</svg>
+      )
+    }
+  }
+});
+export default Wronged;

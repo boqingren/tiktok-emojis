@@ -1,0 +1,39 @@
+{
+  "name": "@tiktok-emojis/vue",
+  "private": false,
+  "version": "1.0.0",
+  "license": "MIT",
+  "keywords": ["tiktok emojis", "tiktok", "emojis", "vue", "svg"],
+  "description": "Complete TikTok emojis collection as Vue 3 components. 46 secret TikTok emojis (smile, happy, angry, etc.) with SVG rendering. Perfect for social media apps, chat interfaces, and engaging user content. Vue 3 compatible.",
+  "author": "Jun <boqingren@hotmail.com> (https://github.com/boqingren)",
+  "homepage": "https://tiktokemojis.click",
+  "repository": "https://github.com/boqingren/tiktok-emojis.git",
+  "bugs": "https://github.com/boqingren/tiktok-emojis/issues",
+  "files": ["dist", "README.md"],
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "dev": "npx tsup --watch",
+    "build": "npx tsup"
+  },
+  "devDependencies": {
+    "@types/node": "24.0.14",
+    "tsup": "8.5.0",
+    "typescript": "5.8.3",
+    "vue": "3.0.0"
+  },
+  "peerDependencies": {
+    "vue": ">=3.0.0"
+  },
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    },
+    "./*": {
+      "import": "./dist/*.mjs",
+      "require": "./dist/*.js"
+    }
+  }
+}
