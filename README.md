@@ -1,4 +1,4 @@
-# @tiktok-emojis/root
+# TikTok Emojis SDK
 
 > **The complete monorepo for TikTok's 46 hidden emoji components. Professional React and Vue 3 libraries with TypeScript support, built with Turborepo for modern web applications.**
 
